@@ -1,0 +1,7 @@
+﻿[workspace]
+members = [
+  "crates/renamer",
+  "crates/editor",
+  "crates/converter",
+  "src-tauri",
+]
