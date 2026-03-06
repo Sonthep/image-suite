@@ -20,3 +20,20 @@ cargo tauri dev
 
 ## Contributing
 Please open issues for features/bugs and create a branch per feature. See `CONTRIBUTING.md` for guidelines (coming soon).
+
+## Repository layout
+
+This repository is organized as a multi-crate workspace and Tauri app. High-level layout:
+
+- `src-tauri/` — Tauri backend and configuration (existing)
+- `crates/renamer/` — core renaming logic (library)
+- `crates/editor/` — image editing utilities (library)
+- `crates/converter/` — image format conversion utilities (library)
+
+Each crate contains a minimal `Cargo.toml` and `src/` with library entrypoints. The `README`s inside each folder describe planned features.
+
+## Next steps for contributors
+
+- Follow `CONTRIBUTING.md` to create feature branches and PRs.
+- Run tests with `cargo test` and use the provided CI workflow.
+
