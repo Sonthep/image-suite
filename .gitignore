@@ -1,0 +1,41 @@
+# Rust / Cargo
+/target/
+**/target/
+Cargo.lock
+
+# Tauri / build
+/src-tauri/target/
+/dist/
+/build/
+
+# Node
+node_modules/
+
+# IDEs
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Secrets
+.env
+.env.local
+
+# Binaries
+*.exe
+*.dll
+*.pdb
+*.so
+*.dylib
+
+# Generated files
+**/out/
+
+# Ignore other temporary files
+*.tmp
+*.swp
